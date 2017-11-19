@@ -51,7 +51,7 @@ export default class ToastView extends React.Component {
                 this.maxWidth = tempWidth;
             }
             itemList.push(
-                <View style={{ flex: 0, flexDirection: 'row', alignItems: 'center' }}>
+                <View key={index + 'toast'} style={{ flex: 0, flexDirection: 'row', alignItems: 'center' }}>
                     <View style={{ height: 6, width: 6, marginRight: 2, backgroundColor: showColor ? showColor : ColorList[index] }} />
                     <Text style={{ color: 'white', fontSize: 9 }} >{`${item.name}：${item.data[showClickIndex]}`}</Text>
                 </View>

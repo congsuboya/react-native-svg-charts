@@ -93,6 +93,7 @@ export default class Pie extends React.Component {
 
             pathViews.push(
                 <Path
+                    key={index + 'pieItem'}
                     onPress={(e) => this.clickItemView(index, item, textValue, e.nativeEvent)}
                     key={index}
                     fill={ColorList[index]}
@@ -151,6 +152,7 @@ export default class Pie extends React.Component {
                         {itemViewList.map((item, index) => {
                             if (selectedIndex > -1 && index == selectedIndex) {
                                 return (<G
+                                    key={index + 'G'}
                                     scale={1.1}
                                     origin={`${cx},${cy}`}
                                 >
