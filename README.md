@@ -27,9 +27,6 @@
 import React, { Component } from 'react';
 import {
     View,
-    TextInput,
-    Button,
-    Slider,
     Dimensions
 } from 'react-native';
 
@@ -38,7 +35,7 @@ import {
     Bar
 } from 'rn-svg-chart';
 
-class DemoExample extends Component {
+export default class DemoExample extends Component {
     render() {
         return (
            <View style={{ flex: 1, alignItems: 'center' }}>
