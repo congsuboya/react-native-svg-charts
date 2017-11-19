@@ -44,4 +44,14 @@ export default class DemoExample extends Component {
         );
     }
 }
+
+
+DemoExample.defaultProps = {
+    option: {
+        ....
+    },
+    valueInterval: 3,
+    style: { height: 400, width: width },
+    interWidth: 10
+}
 ```
