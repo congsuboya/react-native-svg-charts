@@ -6,7 +6,7 @@
 
 [Check out the demo](https://github.com/congsuboya/react-native-svg-charts/tree/master/RNSvgCharts).
 
-![](/assets/111.gif)  ![](/assets/222.gif)  ![](/assets/3333.gif)
+![](/image/111.gif)![](/image/222.gif) ![](/image/3333.gif)
 
 ### Installation
 
