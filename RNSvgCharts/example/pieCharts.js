@@ -9,7 +9,7 @@ import {
 
 const { width, height } = Dimensions.get('window');
 
-import { Pie } from '../src';
+import { Pie } from 'rn-svg-chart';
 
 
 export default class PieCharts extends React.Component {

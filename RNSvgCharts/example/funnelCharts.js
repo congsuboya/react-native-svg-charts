@@ -9,7 +9,7 @@ import {
 
 const { width, height } = Dimensions.get('window');
 
-import { Funnel } from '../src';
+import { Funnel } from 'rn-svg-chart';
 
 export default class LineCharts extends React.Component {
 

@@ -9,7 +9,7 @@ import {
 
 const { width, height } = Dimensions.get('window');
 
-import { Bar } from '../src';
+import { Bar } from 'rn-svg-chart';
 
 export default class HorizontalBarCharts extends React.Component {
 

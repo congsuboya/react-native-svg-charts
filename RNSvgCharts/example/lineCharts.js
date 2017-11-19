@@ -9,7 +9,7 @@ import {
 
 const { width, height } = Dimensions.get('window');
 
-import { Line } from '../src';
+import { Line } from 'rn-svg-chart';
 
 export default class LineCharts extends React.Component {
 
